@@ -744,7 +744,7 @@ color: var(--pressed-state)
 
 .modal-form-name-input:focus,
 .modal-form-name-textarea:focus {
-    border-color: var(--IRIS, #4d5ae5);
+    border-color: var(--primary-brand);
 }
 
 .modal-form-name-textarea {
@@ -772,7 +772,7 @@ color: var(--pressed-state)
 }
 
 .modal-form-name-input:focus+.modal-form-svg {
-    fill: var(--IRIS, #4d5ae5);
+    fill: var(--primary-brand);
 }
 
 .modal-form-privacy-label {
