@@ -820,7 +820,7 @@ color: var(--pressed-state)
     letter-spacing: 0.04em;
     color: var(--white-background);
     cursor: pointer;
-    background-color: var(--pressed-state);
+    background-color: var(--primary-brand);
     border: none;
     border-radius: 4px;
     font-size: 16px;
