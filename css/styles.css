@@ -780,6 +780,7 @@ color: var(--pressed-state)
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--subtle-text);
+    display: block;
 }
 
 .modal-form-privacy-span {
@@ -795,6 +796,39 @@ color: var(--pressed-state)
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+#user-privacy:checked + .modal-form-privacy-label span {
+    background-color: var(--pressed-state);
+    border: none;
+    fill: var(--default-buttons-background)
+}
+
+.user-privacy-link {
+    color: var(--primary-brand)
+}
+
+.button-form-submit {
+    display: block;
+    margin: auto;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-background)
+    cursor: pointer;
+    background-color: var(--pressed-state)
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Subscribe Footer */
